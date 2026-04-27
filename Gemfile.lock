@@ -8,7 +8,7 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    rack (3.0.10)
+    rack (3.2.6)
     rack-protection (4.0.0)
       rack (>= 3.0)
     ruby2_keywords (0.0.5)
@@ -34,4 +34,4 @@ RUBY VERSION
    ruby 3.2.0p0
 
 BUNDLED WITH
-   2.5.9
+   2.7.2
