@@ -1,0 +1,157 @@
+{
+  "_comment": "Expected dependency tree for the bundler-basic-gemfile probe. Runtime fields (orgToken, userKey, timestamps, extraProperties) are placeholders — downstream comparison tooling must mask or ignore them. Versions are pinned to the Bundler 2.5.3 resolution targeting rubygems.org as of early 2025.",
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "generic-bundler",
+  "agentVersion": "0.0.0",
+  "pluginVersion": "0.0.0",
+  "orgToken": "__PLACEHOLDER__",
+  "userKey": "__PLACEHOLDER__",
+  "timeStamp": 0,
+  "requesterEmail": "__PLACEHOLDER__",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "__PLACEHOLDER__",
+    "gitHubInstallationId": "__PLACEHOLDER__",
+    "scmApplicationId": "__PLACEHOLDER__",
+    "branchName": "main",
+    "checkRunId": "__PLACEHOLDER__",
+    "userOrgToken": "__PLACEHOLDER__",
+    "commitId": "__PLACEHOLDER__",
+    "scmInstallationId": "__PLACEHOLDER__",
+    "repository": "mend-detection-qa/bundler-basic-gemfile",
+    "scaResults": "__PLACEHOLDER__"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["RUBYGEMS"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "PackageManager"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "__PLACEHOLDER__",
+      "dependencies": [
+        {
+          "artifactId": "rack",
+          "version": "3.0.10",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "rack-3.0.10.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": []
+        },
+        {
+          "artifactId": "sinatra",
+          "version": "4.0.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "sinatra-4.0.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "mustermann",
+              "version": "3.0.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "mustermann-3.0.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "ruby2_keywords",
+                  "version": "0.0.5",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "ruby2_keywords-0.0.5.gem",
+                  "dependencyFile": "Gemfile.lock",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "rack-protection",
+              "version": "4.0.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "rack-protection-4.0.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "tilt",
+              "version": "2.4.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "tilt-2.4.0.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "multi_json",
+          "version": "1.15.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "multi_json-1.15.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": []
+        },
+        {
+          "artifactId": "faraday",
+          "version": "2.9.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "faraday-2.9.0.gem",
+          "dependencyFile": "Gemfile.lock",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "faraday-net_http",
+              "version": "3.0.2",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "faraday-net_http-3.0.2.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "ruby2_keywords",
+              "version": "0.0.5",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "ruby2_keywords-0.0.5.gem",
+              "dependencyFile": "Gemfile.lock",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
