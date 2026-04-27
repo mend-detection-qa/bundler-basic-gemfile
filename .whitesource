@@ -5,7 +5,7 @@
     "projectToken": "",
     "baseBranches": [],
     "versioning": {
-       "ruby": "2.5.3"
+       "ruby": "2.5.9"
     }
   },
   "scanSettingsSAST": {
